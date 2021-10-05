@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun, sans-serif;
+}
+
+
+header{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+header > a > img{
+    height: 200px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    color: #666;
+}
+nav div{
+    border: 1px solid #666;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+nav div i {
+    padding-right: 3px;
+}
+nav div:hover{
+    background-color: rgba(96, 96, 96,0.3);
+    cursor: pointer;
+}
+article{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+article >div{
+    flex-grow: 1;
+}
+article > div > img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.txt{
+    line-height: 40px;
+}
+.txt > h3{
+    font-size: 30px;
+}
+.txt > p{
+    font-family: Georgia, Utopia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #aaa;
+}
+#but1 ,#but2{
+    width: 30px;
+    height: 30px;
+}
+#num{
+    height: 30px;
+}
+
+#switch{
+    display: none;
+}
+#switch:checked  + ul{
+    visibility: visible;
+    transform: scale(1);
+}
+
+label i{
+    padding-right: 5px;
+}
+ul{
+    visibility: hidden;
+    border-top: 1px solid #e2e2e2;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transform: translateY(-20%);
+}
+.section1,
+.section2{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+    line-height: 30px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+.section1 > p{
+    color:#666;
+    font-size: 18px;
+    position: relative;
+    left: -100px;
+}
+.section2 > img {
+    width: 600px;
+    height: 600px;
+}
+.section2{
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 50px;
+}
+#購物車{
+    color: #fff;
+    background-color: rgb(96, 96, 96);
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    padding: 5px 0 5px 0;
+}
+#購物車:hover{
+    background-color: rgba(96, 96, 96,0.7) ;
+    cursor: pointer;
+}
+label{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+}
+
+

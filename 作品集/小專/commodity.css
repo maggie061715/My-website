@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun, sans-serif;
+}
+
+header{
+    background-image: url(./資料蒐集/img/background.jpg);
+    background-size: 40%;
+}
+header div img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 60vw;
+}
+nav{
+    height: 80px;
+    margin-top: 10px;
+    background-color: #337ab7;
+}
+nav > div{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    color: #fff;
+    text-decoration: none;
+}
+.nav:hover{
+    color: rgb(247, 243, 48);
+    font-size: larger;
+    text-decoration: none;
+}
+#CapooCommodity{
+    background-color:#FFD85F;
+    border-radius: 20px;
+    width: 30vw;
+    height: 10vh;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 10vh;
+    border: 3px solid #FFCF3A;
+    letter-spacing:15px;
+}
+#CapooCommodity img{
+    display: inline-block;
+    width: 3vw;
+    margin-right: 15px;
+}
+#CapooEar{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: -3px;
+}
+article{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    background-color: #76ddf2;
+    border-radius: 20px;
+    border: 5px solid #337ab7;
+    
+    
+}
+article div{
+    margin: 30px auto;
+    border:5px dotted #337ab7;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    background-clip: padding-box;
+    
+}
+article div:hover{
+    box-shadow:5px 5px #3379b7a1;
+}
+article div a{
+    color: #337ab7;
+    text-decoration: none;
+}
+article div img{
+    width: 15vw;
+    object-fit: contain;
+    cursor: pointer;
+    border-radius: 10px;
+}
+footer{
+    background-color: #337ab7;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer div a {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fa-instagram:hover{
+    color: rgb(247, 66, 96);
+}
+.fa-youtube-play:hover{
+    color: red;
+}
+footer div p {
+    color: #fff;
+}

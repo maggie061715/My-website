@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--=============== 頁籤圖片 ===============-->
+    <link rel="shortcut icon" href="./image/頁籤.png" type="image/png">
+
+    <!--=============== 連結圖示ICON REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== 連結圖示ICON font-awesome ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--===============  CSS ===============-->
+    <link rel="stylesheet" href="./css/stytle.css">
+
+    <!--=============== RWD CSS ===============-->
+    <link rel="stylesheet" href="./css/RWD.css">
+
+    <!--=============== loading CSS ===============-->
+    <link rel="stylesheet" href="./css/lading.css">
+
+    <!--=============== JS JQ ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+    <!--=============== 網頁名稱 ===============-->
+    <title>郁綺的個人網頁</title>
+
+</head>
+
+<body>
+
+    <div class="loading-wrapper">
+        <div class="loading sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+
+        </div>
+    </div>
+
+
+    <!--=============== header 開始 ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <!-- 主頁LOGO連結   -->
+            <a href="#" class="navlogo"> <img class="logoimg" src="./image/logo.png" alt=""> </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">首頁</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">關於我</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#myskills" class="nav__link">技能</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">經驗</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">作品</a>
+                    </li>
+                </ul>
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">暗色模式</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+
+        <div class="scroll-bar"></div>
+    </header>
+    <!--=============== header 結束 ===============-->
+
+
+
+
+
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+        <img src="./image/背景.jpg" alt="" class="home__img">
+
+        <div class="home__container container grid">
+            <div class="home__data">
+
+                <h1 class="home__data-title"><b>郁綺的</b></h1>
+                <h1 class="home_sec-title"><b>個人網站</b></h1>
+                <a href="./resume/index.html" class="button">郁綺的簡歷</a>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about" id="about">
+
+        <h1 class="heading">關於我</h1>
+
+        <div class="aboutrow">
+
+            <!-- 個人照 -->
+            <div class="aboutimg">
+
+                <img src="./image/郁綺.jpg" alt="">
+
+            </div>
+
+            <!-- 資本資料 -->
+            <div class="presonal-info">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <h3> <span> 名字 : </span>黃郁綺 </h3>
+                        <h3> <span> 年齡 : </span>25 歲 </h3>
+                        <h3> <span> 信箱 : </span>maggie850617@gmail.com </h3>
+                        <h3> <span> 電話 : </span>0935-170-617 </h3>
+                    </div>
+                    <div class="box">
+                        <h3> <span> 學歷 : </span>中州科技大學</h3>
+                        <h3> <span> 居住 : </span> 台中市北區</h3>
+                        <h3> <span> 語言 : </span>中文、台語、英文、日文 </h3>
+                        <h3> <span> 興趣 : </span>攝影、唱歌、旅遊、閱讀 </h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 工作相關資訊 -->
+        <div class="workinfo">
+
+            <div class="box">
+                <h3>工作經驗</h3>
+                <p>6-7年</p>
+            </div>
+            <div class="box">
+                <h3>專案</h3>
+                <p>2項</p>
+            </div>
+            <div class="box">
+                <h3>個人作品</h3>
+                <p>3項(持續更新)</p>
+            </div>
+            <div class="box">
+                <h3>希望職位</h3>
+                <p>前端工程師 </p>
+            </div>
+
+        </div>
+
+    </section>
+    <!--==================== ABOUT 結束====================-->
+
+
+
+
+
+    <!--==================== SKILL 開始====================-->
+    <section class="myskills" id="myskills">
+        <header class="heading">我的技能</header>
+        <div class="skills">
+            <div class="set">
+                <span class="far fa-window-maximize"></span>
+                <header>語言</header>
+                <div class="list">
+                    <label>HTML</label>
+                </div>
+                <div class="list">
+                    <label>Css</label>
+                </div>
+                <div class="list">
+                    <label>js</label>
+                </div>
+                <div class="list">
+                    <label>php</label>
+                </div>
+            </div>
+
+            <div class="set">
+                <span class="fas fa-network-wired"></span>
+                <header>框架</header>
+                <div class="list">
+                    <label>bootstrap</label>
+                </div>
+                <div class="list">
+                    <label>JQuery</label>
+                </div>
+                <div class="list">
+                    <label>React.js</label>
+                </div>
+
+                <div class="list">
+                    <label>node.js</label>
+                </div>
+            </div>
+
+
+            <div class="set">
+                <span class="fas fa-tools"></span>
+                <header>其他</header>
+                <div class="list">
+                    <label>MYSQL</label>
+                </div>
+                <div class="list">
+                    <label>Photoshop</label>
+                </div>
+                <div class="list">
+                    <label>Illustrator</label>
+                </div>
+                <div class="list">
+                    <label>Adobe XD</label>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--==================== SKILL 結束====================-->
+
+
+
+
+
+
+
+    <!--==================== 經驗 開始====================-->
+
+
+
+    <section class="experience" id="education">
+
+        <h1 class="heading">教育和經驗 </h1>
+
+        <div class="experiencerow">
+
+            <div class="column">
+
+                <h3 class="title">學習歷程</h3>
+
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2021/5~2021/10 </div>
+                    <h3>台中資策會</h3>
+                    <p>前端工程師養成班</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2015/9~2019/6 </div>
+                    <h3>中州科技大學觀光與休閒管理系</h3>
+                    <p>觀光與休閒管理系</p>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <h3 class="title">工作經驗</h3>
+
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2020~2021 </div>
+                    <h3>遠傳直營門市</h3>
+                    <p>電信業務銷售、電話外撥銷售、客訴處理。每個月完成85%銷售達成率，並擁有固定客戶指定服務。</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2019~2020 </div>
+                    <h3>無二壽司</h3>
+                    <p>內場餐點準備及製作、外場服務人員、粉絲專業經營。撰寫超過100篇貼文，社團追蹤人數提升150%。</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2018~2019 </div>
+                    <h3>千山淨水門市銷售專員</h3>
+                    <p>電話銷售、門市銷售、POS訂單製作、技師行程安排。電話進行銷售，一共達成百件以上的成交率，並有直接在門市完成販售新機的紀錄。</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2017~2018 </div>
+                    <h3>福容飯店A8館</h3>
+                    <p>外場服務、包廂服務、喜宴主桌服務、西餐廳外場。餐點介紹、桌邊服務、結帳櫃檯。</p>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calendar"></i> 2014~2015 </div>
+                    <h3>松霖旅行社</h3>
+                    <p>學生畢業旅行領團人員。負責帶領一個班級，進行景點介紹、活動安排、教育學習、隔宿露營等。</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==================== 經驗 結束====================-->
+    <!--==================== 作品 開始====================-->
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading">作品集</h1>
+
+        <div class="box-container">
+
+
+            <div class="box" onclick="location.href='./作品集/小專/capoo介紹網站.html'">
+                <img src="./image/Author.jpg" style="width: 200px; height: 200px;" alt="">
+
+                <h3>專題-咖波介紹網站</h3>
+                <p>介紹咖波的起源，人物介紹、周邊商品、實體店面的整合網站</p>
+                <a href="./作品集/小專/capoo介紹網站.html" class="button">查看更多</a>
+            </div>
+            </a>
+            <div class="box" onclick="location.href='./作品集/問卷調查/0526作業.html'">
+                <img src="./image/capoo.gif" style="width: 200px; height: 200px;" alt="">
+
+                <h3>咖波調查問卷</h3>
+                <p>咖波角色問卷調查</p>
+                <a href="./作品集/問卷調查/0526作業.html" class="button">查看更多</a>
+            </div>
+            <div class="box" onclick="location.href='./作品集/CV/index.html'">
+                <img src="./image/郁綺簡歷版本1.png" style="width: 200px; height: 200px;" alt="">
+
+                <h3>個人簡歷</h3>
+                <p>自製個人簡歷，練習HTML、CSS、JS運用。<br><br><br></p>
+                <a href="./作品集/CV/index.html" class="button">查看更多</a>
+            </div>
+        </div>
+
+    </section>
+    <!--==================== 作品 結束====================-->
+
+    <!--==================== 底部 開始====================-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>關於郁綺</h4>
+                    <ul>
+                        <li><a href="#about">關於我</a></li>
+                        <li><a href="#education">經歷</a></li>
+                        <li><a href="#portfolio">作品</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>聯絡方式</h4>
+                    <ul>
+                        <li><a href="#">手機:0935-170-617</a></li>
+                        <li><a href="#">信箱:maggie850617@gmail.com</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>教育單位</h4>
+                    <ul>
+                        <li><a href="#">中州科技大學</a></li>
+                        <li><a href="https://www.iiiedu.org.tw/taichung/">台中資策會</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== 底部 結束====================-->
+
+
+    <!--========== 置頂圖標  使用REMIXICONS ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+
+    <!--=============== 內容載入動畫效果 scrollreveal ===============-->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!--=============== 消除網頁黃色警示 [Deprecation] ===============-->
+    <script>
+        if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+    </script>
+
+    <!--=============== 主要 JS ===============-->
+    <script src="./js/main.js"></script>
+
+    <!--=============== loading JS ===============-->
+    <script src="./js/loading.js"></script>
+
+
+
+</body>
+
+</html>

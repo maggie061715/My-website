@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun, sans-serif;
+}
+header{
+    background-image: url(./資料蒐集/img/background.jpg);
+    background-size: 40%;
+}
+header div img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 60vw;
+}
+nav{
+    height: 80px;
+    margin-top: 10px;
+    background-color: #337ab7;
+}
+nav > div{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    color: #fff;
+    text-decoration: none;
+}
+.nav:hover{
+    color: #f8f430;
+    font-size: larger;
+    text-decoration: none;
+}
+/* article{
+    position: relative
+} */
+/* #border{
+    width: 500px;
+    height: 50vh;
+    border: 2px solid palevioletred;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+} */
+h4{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+.A1 ,.A2{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.AA{
+    display: flex;
+    justify-content: center;
+    background-color: #FFD85F;
+}
+article div div{
+    display: inline-block;
+    vertical-align: middle;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.section2{
+    background-color: #7EB1DC;
+}
+table{
+    width: 70vw;
+}
+
+
+#BeforeTxt{
+    text-align: center;
+    background-color: #FFD85F;
+    border: #FFCF3A 5px solid;
+    width: 70vw;
+    border-radius: 20px;
+
+}
+
+td:nth-child(2){
+    border-right: solid 5px #337ab7;
+    border-left: solid 5px #337ab7;
+}
+tr:not(:last-child){
+    border: solid 5px #337ab7;
+    background-color: white;
+}
+td[colspan="3"]{
+ text-align: right;
+}
+td img{
+    display: block;
+    margin: 0 auto;
+}
+.Float img{
+    width: 31vw;
+}
+
+
+/* 作者照 響應時的大小 */
+footer{
+    background-color: #337ab7;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* clear: both; */
+}
+footer div a {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fa-instagram:hover{
+    color: rgb(247, 66, 96);
+}
+.fa-youtube-play:hover{
+    color: red;
+}
+footer div p {
+    color: #fff;
+}

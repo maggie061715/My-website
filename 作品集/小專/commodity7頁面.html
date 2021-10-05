@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capoo商品</title>
+    <link rel="stylesheet" href="commodity頁面.css">
+    <link rel="icon" href="./資料蒐集/img/icon.png">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://www.carterislandtw.com/"><img src="./資料蒐集/周邊商品/卡特島.jpg" alt=""></a>
+    </header>
+    <nav>
+        <div><i class="fa fa-user" aria-hidden="true"></i>登入會員</div>
+        <div><i class="fa fa-cart-plus" aria-hidden="true"></i>購物車</div>
+        <div><i class="fa fa-comment" aria-hidden="true"></i>聯絡我們</div>
+        <div><i class="fa fa-globe" aria-hidden="true"></i>繁體中文</div>
+        <div><i class="fa fa-search" aria-hidden="true"></i>找商品</div>
+    </nav>
+    <article>
+        <div><img src="./資料蒐集/周邊商品/商品7.jpg" alt=""></div>
+        <div>
+            <div class="txt">
+                <h3>[貓貓蟲-咖波] 狗狗大臉 造型收納袋</h3><br>
+                <p>NT$300</p>
+                <div>
+                    <p>數量</p>
+                    <button id="but1" onclick="but1()">-</button>
+                    <input id="num" name="num" type="text" value="1" readonly="true" onchange="setTotal();">
+                    <button id="but2" onclick="but2()">+</button>
+                </div>
+                <br>
+                <input id="購物車" name="" type="button" value="加入購物車">
+            </div>
+            <div class="txt">
+                <label for="switch">
+                    <i class="fa fa-angle-down"  aria-hidden="true"></i>送貨方式
+                </label>
+                <input type="checkbox" id="switch">
+                <ul>
+                    <li>宅配 NT$80</li>
+                    <li>7-11 取貨不付款 NT$60</li>
+                    <li>7-11 取貨付款 NT$60</li>
+                </ul>
+            </div>
+
+        </div>
+    </article>
+    
+    <section class="section1">
+       <h1>商品描述</h1>
+       <br>
+       <p>
+           貓貓蟲-咖波 唯一授權製作販售 <br>
+           <br>
+           商品規格<br>
+           內容物：造型收納袋 x 1<br>
+           尺寸：15 X 18 X 5 cm<br>
+           材質：100%聚酯纖維<br>
+           產地：中國<br>
+           <br>
+           照片因拍攝地點的關係有些微誤差，一切以商品實物為主<br>
+           <br>
+           10個工作天內出貨<br>
+           宅配：每週一、四出貨，1-2工作天送達(週日不配送)。<br>
+           7-11 取貨不付款：每週一、四出貨，2-3工作天送達。<br>
+           7-11 取貨付款：每週一、四出貨，2-3工作天送達。<br>
+           海外配送：每週二出貨，各地配送時間不同。<br>
+           (實際配送時間依物流配送情況為主)<br>
+           <br>
+           卡特島創意 保留以上活動內容修改之權利
+       </p>
+    </section>
+    
+    <section class="section2">
+        <h1>了解更多</h1>
+        <img src="./資料蒐集/周邊商品/商品7正.jpg" alt="">
+        <img src="./資料蒐集/周邊商品/商品7後.jpg" alt="">
+        <img src="./資料蒐集/周邊商品/商品7內.jpg" alt="">
+    </section>
+    <footer>
+        <a href="https://www.carterislandtw.com/pages/about" target="_blank">關於卡特島</a>
+        <a href="https://www.carterislandtw.com/pages/%E8%B3%BC%E7%89%A9%E9%A0%88%E7%9F%A5" target="_blank">購物須知</a>
+        <a href="https://www.carterislandtw.com/pages/%E9%80%80%E6%8F%9B%E8%B2%A8%E9%A0%88%E7%9F%A5" target="_blank">退換貨須知</a>
+        <a href="https://www.opay.tw/service/pay_way_cvpay" target="_blank">超商代碼繳費教學</a>
+    </footer>
+
+
+    <script>
+        function but1(){
+
+            var x = 1;
+            var InputNum = parseInt(document.getElementById("num").value);
+            if( InputNum > 1){
+
+                document.getElementById("num").value = InputNum - x;
+            }
+        } 
+        function but2(){
+            var x = 1;
+            var InputNum = parseInt(document.getElementById("num").value);
+            document.getElementById("num").value = InputNum + x;
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-image: url(./img/背景.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+:root {
+    --word-color: cornflowerblue;
+}
+
+section {
+    margin: 50px;
+}
+
+.capoo {
+    background-color: white;
+    box-shadow: 3px 3px 5px 6px #888888;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+}
+
+#photo {
+    width: 100%;
+    height: 500px;
+}
+
+.img1 {
+    width: 150px;
+    cursor: pointer;
+    /* 想詢問如果我要讓照片能夠跟著螢幕縮放 要如何改才適當 改%數好像沒用 是因為建成清單的關係嗎 */
+}
+
+h1,
+h2,
+#list {
+    color: var(--word-color);
+}
+
+p {
+    color: rgb(122, 131, 1)
+}
+
+.witch ul {
+    list-style: none;
+}
+
+.witch li {
+    display: inline-block;
+    border-radius: 8px;
+    border: 3px solid var(--word-color);
+    cursor: pointer;
+}
+
+.witch li:hover {
+    background-color: var(--word-color);
+}
+
+table {
+    margin: 0 auto;
+    width: 600px;
+    text-align: left;
+}
+
+tr,
+td {
+    border-radius: 8px;
+    border: 3px solid var(--word-color);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+td:hover {
+    background-color: var(--word-color);
+}
+
+div span {
+    font-size: 18px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.data1,
+.data2,
+.data3 {
+    display: inline-block;
+    border: 3px solid var(--word-color);
+    border-radius: 30px;
+    cursor: pointer;
+    width: 125px;
+    padding: 15px 0
+}
+
+.data1:hover {
+    background-color: var(--word-color);
+}
+
+.data2:hover {
+    background-color: var(--word-color);
+}
+
+.data3:hover {
+    background-color: var(--word-color);
+}
+
+hr {
+    border: 0;
+    border-bottom: 3px solid var(--word-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+#button {
+    border: 0;
+    background-color: rgb(90, 90, 238);
+    color: #fff;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+#button:hover {
+    background-color: var(--word-color);
+    cursor: pointer;
+}

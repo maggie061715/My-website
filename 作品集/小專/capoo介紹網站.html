@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Capoo-BugCat</title>
+    <link rel="stylesheet" href="./bootstap_css/bootstrap.min.css">
+    <script src="./bootstap_js/jquery.min.js"></script>
+    <script src="./bootstap_js/popper.min.js"></script>
+    <script src="./bootstap_js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <!-- 鑲入兩個動畫連結 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./資料蒐集/img/icon.png">
+
+    <link rel="stylesheet" href="./capoo介紹網站.css">
+</head>
+
+<body>
+    <header>
+        <!-- <img id="imgTest" src="./資料蒐集/img/首圖.jpg" alt=""> -->
+    </header>
+    <br><br><br><br><br>
+    <article>
+        <div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8ML2K5U52FY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="NewTxt">
+            <span style="--i:1">~</span>
+            <span style="--i:2">最</span>
+            <span style="--i:3">新</span>
+            <span style="--i:4">消</span>
+            <span style="--i:5">息</span>
+            <span style="--i:6">~</span>
+            <br><br>
+            <p>
+                <img src="./資料蒐集/img/手掌.png" alt=""> 7/8 :&nbsp;<a href="https://line.me/S/sticker/23908">貓貓蟲咖波 X BROWN
+                    & FRIENDS 聯名貼圖新上架</a>
+            </p>
+            <p>
+                <img src="./資料蒐集/img/手掌.png" alt=""> 7/2 :&nbsp;<a
+                    href="https://www.carterislandtw.com/">咖波新商品上架囉!&nbsp; 咖波屋同步販售</a>
+            </p>
+            <p>
+                <img src="./資料蒐集/img/手掌.png" alt=""> 6/23 :&nbsp;<a href="https://url.rhinoshield.tw/cp0623f">咖波X犀牛盾手機殼
+                    新品上架!&nbsp; 還有AirPods 保護套喔!</a>
+            </p>
+            <p>
+                <img src="./資料蒐集/img/手掌.png" alt=""> 6/10 :&nbsp;<a href="https://line.me/S/sticker/23727">新貼圖上架囉</a>
+            </p>
+
+        </div>
+    </article>
+    <br><br><br>
+    <section>
+        <img id="head" src="./資料蒐集/img/首頁標題.png" alt="">
+    </section>
+    <br>
+    <section>
+        <a href="https://tw.hicdn.beanfun.com/beanfun/promo/MapleStory/E20210324/index.html" target="_blacck"><img
+                id="Maple" src="./資料蒐集/img/楓之谷大圖.png" alt=""></a>
+    </section>
+    <section >
+        <img id="Maple2" src="./資料蒐集/img/楓之谷內容.png" alt="" data-aos="fade-right" data-aos-duration='1000'  data-aos-delay="500">
+    </section>
+    <br><br><br>
+    <section>
+        <a href="https://tro.gnjoy.com.tw/event/ACT_20201110_Capoo" target="_blacck">
+            <div class="parallax3"></div>
+        </a>
+    </section>
+    <section>
+        <img id="Ro" src="./資料蒐集/img/RO內容.png" alt=""  data-aos="fade-left" data-aos-duration='1000'  data-aos-delay="500">
+    </section>
+    <br><br><br>
+    <!-- 導覽列 -->
+    <nav class="sticky-top">
+        <div>
+            <a href="./about頁面.html" class="nav">關於</a>
+            <a href="./member頁面.html" class="nav">成員</a>
+            <a href="./portfolio頁面.html" class="nav">作品集</a>
+            <a href="./commodity.html" class="nav">周邊</a>
+            <a href="./CapooStore頁面.html" class="nav">實體商店</a>
+        </div>
+    </nav>
+
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/capoocat"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/bugcat_capoo/?hl=zh-tw"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UClr57MMpeX6m_p6hvvhu1Fw"><i class="fa fa-youtube-play"
+                    aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <p>聯絡亞拉：capoocat@gmail.com</p>
+        </div>
+        <div>
+            <p style="font-size: small;">©2021 BUGCAT CAPOO</p>
+
+        </div>
+    </footer>
+
+
+    <script>
+        AOS.init();
+        document.addEventListener('aos:in', ({ detail }) => {
+            console.log('animated in', detail);
+            // ...
+        });
+        
+        document.addEventListener('aos:out', ({ detail }) => {
+            console.log('animated out', detail);
+            // ...
+        });
+        
+        AOS.refresh();
+        // 取的CSS裡的background-image屬性 值=url(./資料蒐集/img/首圖2.png)
+
+        setInterval(function () {
+            var ChImg = $("header").css("background-image");
+            if (ChImg.indexOf(".png") > -1) {
+                $("header").css("background-image", "url(./資料蒐集/img/首圖.jpg)");
+
+            } else {
+                $("header").css("background-image", "url(./資料蒐集/img/首圖2.png)");
+            }
+        }, 1000);
+
+    </script>
+</body>
+
+</html>
